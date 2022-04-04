@@ -12,6 +12,7 @@ describe("module", function () {
     mockHelper = {
       transaction: sandbox.stub().callsArgWithAsync(0, transaction),
       doSomething: sandbox.stub().resolves({}),
+      doSomething2: sandbox.stub().resolves({}),
       expectedToBeCalled: sandbox.stub().resolves({}),
     };
   });
